@@ -1,137 +1,157 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio- Hari</title>
+    <title>Hari - Portfolio</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
         }
-        header {
-            background-color: #b5e61d;
-            padding: 20px;
+        body {
+            background-color: #e63946;
+            color: black;
+        }
+        .header {
+            background-color: #a8eb12;
             text-align: center;
+            padding: 30px;
+            font-size: 28px;
+            font-weight: bold;
         }
-        header h1 {
-            margin: 0;
-            color: white;
-        }
-        nav {
-            background-color: #d50032;
-            padding: 10px;
+        .sub-header {
             text-align: center;
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 10px;
         }
-        nav a {
+        .profile-img {
+            display: block;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px auto;
+            border: 3px solid #000;
+        }
+        .nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #d90429;
+        }
+        .nav a {
             color: white;
-            margin: 0 15px;
+            margin: 0 20px;
             text-decoration: none;
             font-weight: bold;
+            font-size: 18px;
         }
         .container {
             width: 80%;
-            margin: 20px auto;
-            background: white;
-            padding: 20px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
             border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
         }
         h2 {
-            color: #d50032;
+            color: #e63946;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
+            padding-left: 20px;
         }
-        li {
-            margin: 5px 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            margin-top: 20px;
-        }
-        .resume-button {
+        .resume-btn {
             display: block;
-            width: 150px;
-            margin: 20px auto;
-            padding: 10px;
             text-align: center;
-            background-color: #333;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: black;
             color: white;
             text-decoration: none;
+            font-weight: bold;
+            width: 180px;
+            margin-left: auto;
+            margin-right: auto;
             border-radius: 5px;
+            font-size: 16px;
+        }
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: black;
+            color: white;
+            margin-top: 30px;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            color: #e63946;
+            text-decoration: none;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Vignesh Mathiyalagan</h1>
-    <p>Electronics Engineer & Cyber Security Expert</p>
-</header>
+    <div class="header">Hari</div>
+    <div class="sub-header">Student | Programme Developer</div>
+    
+    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
 
-<nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#resume">Resume</a>
-</nav>
+    <div class="nav">
+        <a href="#">About</a>
+        <a href="#">Education</a>
+        <a href="#">Skills</a>
+        <a href="#">Projects</a>
+        <a href="#">Resume</a>
+        <a href="#">Contact</a>
+    </div>
 
-<div class="container">
-    <section id="about">
+    <div class="container">
         <h2>About Me</h2>
-        <p>
-            I'm a <strong>cyber security</strong> expert and technology enthusiast passionate about helping organizations 
-            protect their data and create secure online environments. With over 7 years of experience, I stay updated 
-            with the latest cyber security trends and innovations.
-        </p>
-    </section>
+        <p>Pursuing II YEAR OF BCA. MUSIC LOVER. PROGRAMME DEVELOPER.</p>
+    </div>
 
-    <section id="education">
+    <div class="container">
         <h2>Education</h2>
-        <p>Anna University - Electrical & Electronics Engineering</p>
-    </section>
+        <p>II BCA</p>
+    </div>
 
-    <section id="skills">
+    <div class="container">
         <h2>Skills</h2>
         <ul>
-            <li>Cyber Security</li>
-            <li>Internet of Things</li>
-            <li>Cloud Computing</li>
-            <li>Python</li>
-            <li>IBM Cloud</li>
-            <li>Machine Learning & AI</li>
-            <li>Java</li>
-            <li>Blockchain</li>
-            <li>C++</li>
-            <li>JavaScript</li>
+            <li>Web Developing</li>
+            <li>Administration</li>
+            <li>Teaching</li>
+            <li>Handling Heavy Tasks</li>
         </ul>
-    </section>
+    </div>
 
-    <section id="projects">
+    <div class="container">
         <h2>Projects</h2>
         <ul>
-            <li><a href="#">AI Based Alternator Control System</a></li>
-            <li><a href="#">Cloud Security IBM</a></li>
-            <li><a href="#">IBM Chatbot</a></li>
-            <li><a href="#">Chatbot</a></li>
+            <li>Data Handler</li>
         </ul>
-    </section>
+    </div>
 
-    <section id="resume">
+    <div class="container">
         <h2>Resume</h2>
-        <a href="#" class="resume-button">Download CV</a>
-    </section>
-</div>
+        <a href="resume.pdf" class="resume-btn" download>Download CV</a>
+    </div>
 
-<footer>
-    <p>&copy; 2025 Hari </p>
-</footer>
+    <div class="container contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:hari@example.com">hari@example.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/Hari</a></p>
+        <p>GitHub: <a href="#">github.com/Hari</a></p>
+    </div>
+
+    <div class="footer">© 2025 Hari</div>
 
 </body>
 </html>
