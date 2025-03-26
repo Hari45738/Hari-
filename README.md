@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hari - Portfolio</title>
+    <title>Hari V - Portfolio</title>
     <style>
         * {
             margin: 0;
@@ -10,147 +10,144 @@
             box-sizing: border-box;
             font-family: Arial, sans-serif;
         }
+
         body {
-            background-color: #e63946;
-            color: black;
+            background-color: #f5f5f5;
+            color: #333;
         }
+
+        /* Header Section */
         .header {
-            background-color: #a8eb12;
+            background-color: #a30000;
+            color: white;
             text-align: center;
-            padding: 30px;
-            font-size: 28px;
-            font-weight: bold;
+            padding: 50px;
+            font-size: 24px;
         }
-        .sub-header {
-            text-align: center;
-            font-size: 18px;
-            font-style: italic;
+
+        .header h1 {
+            font-size: 50px;
             margin-bottom: 10px;
         }
-        .profile-img {
-            display: block;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin: 10px auto;
-            border: 3px solid #000;
-        }
-        .nav {
-            text-align: center;
-            padding: 15px;
-            background-color: #d90429;
-        }
-        .nav a {
-            color: white;
-            margin: 0 20px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 18px;
-        }
+
         .container {
             width: 80%;
             margin: auto;
-            background-color: white;
+            padding: 20px;
+        }
+
+        /* Section Styling */
+        section {
+            background: white;
             padding: 30px;
+            margin-bottom: 20px;
             border-radius: 10px;
-            margin-top: 20px;
-            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
+
         h2 {
-            color: #e63946;
+            font-size: 28px;
+            color: #a30000;
+            margin-bottom: 10px;
         }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
         ul {
-            padding-left: 20px;
+            list-style-type: none;
+            padding: 0;
         }
+
+        ul li {
+            background: #ddd;
+            margin: 8px 0;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+
+        /* Resume Button */
         .resume-btn {
             display: block;
             text-align: center;
-            margin-top: 20px;
-            padding: 12px;
-            background-color: black;
+            background-color: #a30000;
             color: white;
+            padding: 15px;
             text-decoration: none;
-            font-weight: bold;
-            width: 180px;
-            margin-left: auto;
-            margin-right: auto;
             border-radius: 5px;
-            font-size: 16px;
+            font-size: 20px;
+            width: 200px;
+            margin: 20px auto;
+            font-weight: bold;
         }
+
+        /* Footer */
         .footer {
             text-align: center;
-            padding: 15px;
-            background-color: black;
+            padding: 20px;
+            background: #333;
             color: white;
-            margin-top: 30px;
+            font-size: 18px;
         }
-        .contact {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .contact a {
-            color: #e63946;
-            text-decoration: none;
-            font-weight: bold;
-        }
+
     </style>
 </head>
 <body>
 
-    <div class="header">Hari</div>
-    <div class="sub-header">Student | Programme Developer</div>
-    
-    <img src="profile.jpg" alt="Profile Picture" class="profile-img">
-
-    <div class="nav">
-        <a href="#">About</a>
-        <a href="#">Education</a>
-        <a href="#">Skills</a>
-        <a href="#">Projects</a>
-        <a href="#">Resume</a>
-        <a href="#">Contact</a>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Hari V</h1>
+        <p>Student | Web Developer | Music Lover</p>
     </div>
 
     <div class="container">
-        <h2>About Me</h2>
-        <p>Pursuing II YEAR OF BCA. MUSIC LOVER. PROGRAMME DEVELOPER.</p>
+        
+        <!-- About Section -->
+        <section>
+            <h2>About Me</h2>
+            <p>I am currently pursuing my **II YEAR OF BCA**. Passionate about web development, programming, and problem-solving. Also, I love music!</p>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            <p>II Year BCA</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Administration</li>
+                <li>Teaching</li>
+                <li>Handling Heavy Tasks</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Data Handler</li>
+            </ul>
+        </section>
+
+        <!-- Resume Section -->
+        <section>
+            <h2>Resume</h2>
+            <a href="your-resume-link.pdf" class="resume-btn" download>Download CV</a>
+        </section>
+
     </div>
 
-    <div class="container">
-        <h2>Education</h2>
-        <p>II BCA</p>
+    <!-- Footer -->
+    <div class="footer">
+        © 2024 Hari V - All Rights Reserved
     </div>
-
-    <div class="container">
-        <h2>Skills</h2>
-        <ul>
-            <li>Web Developing</li>
-            <li>Administration</li>
-            <li>Teaching</li>
-            <li>Handling Heavy Tasks</li>
-        </ul>
-    </div>
-
-    <div class="container">
-        <h2>Projects</h2>
-        <ul>
-            <li>Data Handler</li>
-        </ul>
-    </div>
-
-    <div class="container">
-        <h2>Resume</h2>
-        <a href="resume.pdf" class="resume-btn" download>Download CV</a>
-    </div>
-
-    <div class="container contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:hari@example.com">hari@example.com</a></p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/Hari</a></p>
-        <p>GitHub: <a href="#">github.com/Hari</a></p>
-    </div>
-
-    <div class="footer">© 2025 Hari</div>
 
 </body>
 </html>
